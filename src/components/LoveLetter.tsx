@@ -27,7 +27,7 @@ const LoveLetter = () => {
           </p>
           <p className="letter-signature">
             With all my love,<br/>
-            Your devoted partner 💕
+            Your sex partner 💕
           </p>
         </div>
       </div>

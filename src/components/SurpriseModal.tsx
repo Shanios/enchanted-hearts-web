@@ -74,7 +74,7 @@ const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose }) => {
                 I love you more than words can express.
               </p>
               <div className="handwritten-signature">
-                Forever yours,
+                your kannan
                 <br />
                 <span className="signature-name">Your Love</span>
               </div>

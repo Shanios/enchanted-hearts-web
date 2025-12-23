@@ -1,40 +1,48 @@
 import React, { useState, useEffect } from 'react';
+import img11 from '../assets/2nd-anniversary11.jpeg';
+import img10 from '../assets/2nd-anniversary10.jpeg';
+import img9 from '../assets/2nd-anniversary9.jpeg';
+import img8 from '../assets/2nd-anniversary8.jpeg';
+import img7 from '../assets/2nd-anniversary7.jpeg';
+import img6 from '../assets/2nd-anniversary6.jpeg';
+
 
 const AnimatedImageGrid: React.FC = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   
-  const images = [
-    {
-      src: "https://images.unsplash.com/photo-1518621012118-696072aa579a?w=400&h=400&fit=crop",
-      caption: "You Made My Dreams Come True",
-      delay: 0
-    },
-    {
-      src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop",
-      caption: "Every Moment With You",
-      delay: 0.2
-    },
-    {
-      src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=400&fit=crop",
-      caption: "Forever In My Heart",
-      delay: 0.4
-    },
-    {
-      src: "https://images.unsplash.com/photo-1516589091380-5d8e87df6999?w=400&h=400&fit=crop",
-      caption: "You Are My Everything",
-      delay: 0.6
-    },
-    {
-      src: "https://images.unsplash.com/photo-1518197336700-b6e7d83b5b93?w=400&h=400&fit=crop",
-      caption: "Love Beyond Words",
-      delay: 0.8
-    },
-    {
-      src: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=400&fit=crop",
-      caption: "Beautiful Like You",
-      delay: 1.0
-    }
-  ];
+const images = [
+  {
+    src: img11,
+    caption: "You Made My Dreams Come True",
+    delay: 0
+  },
+  {
+    src: img10,
+    caption: "Every Moment With You",
+    delay: 0.2
+  },
+  {
+    src: img9,
+    caption: "Forever In My Heart",
+    delay: 0.4
+  },
+  {
+    src: img8,
+    caption: "You Are My Everything",
+    delay: 0.6
+  },
+  {
+    src: img7,
+    caption: "Love Beyond Words",
+    delay: 0.8
+  },
+  {
+    src: img6,
+    caption: "Beautiful Like You",
+    delay: 1.0
+  }
+];
+
 
   const decorativeElements = [
     { emoji: '🌸', top: '10%', left: '5%', delay: 0 },
